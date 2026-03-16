@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit Day by Day</Name>
+    <Assembly>RevitDayByDay.dll</Assembly>
+    <AddInId>D1B2C3D4-E5F6-7890-ABCD-DA1BDA0D2026</AddInId>
+    <FullClassName>RevitDayByDay.App</FullClassName>
+    <VendorId>DSTools</VendorId>
+    <VendorDescription>DSTools — Dinar Sharafutdinov</VendorDescription>
+  </AddIn>
+</RevitAddIns>
