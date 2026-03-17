@@ -22,7 +22,7 @@ A **Day by Day** tab will appear on the Ribbon.
 |-----|-------|------|------|
 | 1 | Rename 500 views in 2 seconds | [Day001_RenameViews.cs](Commands/Day001_RenameViews.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7438982550162837504-GqFp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 2 | Count elements by category | [Day002_CountByCategory.cs](Commands/Day002_CountByCategory.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439301340310319105-FDtX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-
+| 3 | Export rooms to CSV | [Day003_ExportRoomsToCsv.cs](Commands/Day003_ExportRoomsToCsv.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439652702181163008-tsNP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 ## Author
 
 Dinar Sharafutdinov. BIM developer, MEP.
