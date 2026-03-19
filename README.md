@@ -24,6 +24,8 @@ A **Day by Day** tab will appear on the Ribbon.
 | 2 | Count elements by category | [Day002_CountByCategory.cs](Commands/Day002_CountByCategory.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439301340310319105-FDtX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 3 | Export rooms to CSV | [Day003_ExportRoomsToCsv.cs](Commands/Day003_ExportRoomsToCsv.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439652702181163008-tsNP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 4 | Find every warning in the model | [Day004_ListWarnings.cs](Commands/Day004_ListWarnings.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440044717079171073-XREb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 5 | Delete unplaced rooms | [Day005_DeleteUnplacedRooms.cs](Commands/Day005_DeleteUnplacedRooms.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440384679049859072-guMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+
 ## Author
 
 Dinar Sharafutdinov. BIM developer, MEP.

@@ -17,6 +17,7 @@ namespace RevitDayByDay
             AddButton(p1, path, "Day002", "Day 2\nCount by Cat", "RevitDayByDay.Commands.Day002_CountByCategory");
             AddButton(p1, path, "Day003", "Day 3\nRooms CSV", "RevitDayByDay.Commands.Day003_ExportRoomsToCsv");
             AddButton(p1, path, "Day004", "Day 4\nWarnings", "RevitDayByDay.Commands.Day004_ListWarnings");
+            AddButton(p1, path, "Day005", "Day 5\nDel Rooms", "RevitDayByDay.Commands.Day005_DeleteUnplacedRooms");
             return Result.Succeeded;
         }
 
