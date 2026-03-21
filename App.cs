@@ -19,6 +19,7 @@ namespace RevitDayByDay
             AddButton(p1, path, "Day004", "Day 4\nWarnings", "RevitDayByDay.Commands.Day004_ListWarnings");
             AddButton(p1, path, "Day005", "Day 5\nDel Rooms", "RevitDayByDay.Commands.Day005_DeleteUnplacedRooms");
             AddButton(p1, path, "Day006", "Day 6\nBulk Param", "RevitDayByDay.Commands.Day006_BulkSetParameter");
+            AddButton(p1, path, "Day007", "Day 7\nLinked Files", "RevitDayByDay.Commands.Day007_ListLinkedFiles");
             return Result.Succeeded;
         }
 
