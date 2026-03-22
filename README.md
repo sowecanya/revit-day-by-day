@@ -27,6 +27,7 @@ A **Day by Day** tab will appear on the Ribbon.
 | 5 | Delete unplaced rooms | [Day005_DeleteUnplacedRooms.cs](Commands/Day005_DeleteUnplacedRooms.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440384679049859072-guMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 6 | Bulk-update parameter values | [Day006_BulkSetParameter.cs](Commands/Day006_BulkSetParameter.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440780052113408001-xDVw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 7 | List all linked files | [Day007_ListLinkedFiles.cs](Commands/Day007_ListLinkedFiles.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441194415504678913-hkL5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 8 | Find elements without a workset | [Day008_NoWorksetElements.cs](Commands/Day008_NoWorksetElements.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441389842392907776-zxi-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 
 ## Author
 
