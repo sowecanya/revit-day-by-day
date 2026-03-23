@@ -21,6 +21,7 @@ namespace RevitDayByDay
             AddButton(p1, path, "Day006", "Day 6\nBulk Param", "RevitDayByDay.Commands.Day006_BulkSetParameter");
             AddButton(p1, path, "Day007", "Day 7\nLinked Files", "RevitDayByDay.Commands.Day007_ListLinkedFiles");
             AddButton(p1, path, "Day008", "Day 8\nNo Workset", "RevitDayByDay.Commands.Day008_NoWorksetElements");
+            AddButton(p1, path, "Day009", "Day 9\nNumber Doors", "RevitDayByDay.Commands.Day009_AutoNumberDoors");
             return Result.Succeeded;
         }
 
