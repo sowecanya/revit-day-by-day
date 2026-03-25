@@ -23,6 +23,9 @@ namespace RevitDayByDay
             AddButton(p1, path, "Day008", "Day 8\nNo Workset", "RevitDayByDay.Commands.Day008_NoWorksetElements");
             AddButton(p1, path, "Day009", "Day 9\nNumber Doors", "RevitDayByDay.Commands.Day009_AutoNumberDoors");
             AddButton(p1, path, "Day010", "Day 10\nTallest Wall", "RevitDayByDay.Commands.Day010_TallestWall");
+
+            var p2 = app.CreateRibbonPanel(tabName, "Views & Sheets");
+            AddButton(p2, path, "Day011", "Day 11\nView Template", "RevitDayByDay.Commands.Day011_ApplyViewTemplate");
             return Result.Succeeded;
         }
 
