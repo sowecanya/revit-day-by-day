@@ -31,6 +31,7 @@ A **Day by Day** tab will appear on the Ribbon.
 | 9 | Auto-number doors by room | [Day009_AutoNumberDoors.cs](Commands/Day009_AutoNumberDoors.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441868374864838656-4_Hd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 10 | Find the tallest wall | [Day010_TallestWall.cs](Commands/Day010_TallestWall.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7442239952244871169-zDea?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 11 | Apply view template to all plans | [Day011_ApplyViewTemplate.cs](Commands/Day011_ApplyViewTemplate.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7442602745808740352-ciPa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 12 | Create a schedule from code | [Day012_CreateSchedule.cs](Commands/Day012_CreateSchedule.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7443239962420006912-VZY9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 
 ## Author
 
