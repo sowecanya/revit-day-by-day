@@ -27,6 +27,7 @@ namespace RevitDayByDay
             var p2 = app.CreateRibbonPanel(tabName, "Views & Sheets");
             AddButton(p2, path, "Day011", "Day 11\nView Template", "RevitDayByDay.Commands.Day011_ApplyViewTemplate");
             AddButton(p2, path, "Day012", "Day 12\nSchedule", "RevitDayByDay.Commands.Day012_CreateSchedule");
+            AddButton(p2, path, "Day013", "Day 13\nSection Box", "RevitDayByDay.Commands.Day013_SectionBoxSelection");
             return Result.Succeeded;
         }
 
