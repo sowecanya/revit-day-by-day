@@ -29,6 +29,7 @@ namespace RevitDayByDay
             AddButton(p2, path, "Day012", "Day 12\nSchedule", "RevitDayByDay.Commands.Day012_CreateSchedule");
             AddButton(p2, path, "Day013", "Day 13\nSection Box", "RevitDayByDay.Commands.Day013_SectionBoxSelection");
             AddButton(p2, path, "Day014", "Day 14\nPDF Export", "RevitDayByDay.Commands.Day014_ExportSheetsPdf");
+            AddButton(p2, path, "Day015", "Day 15\nCreate Sheets", "RevitDayByDay.Commands.Day015_CreateSheets");
             return Result.Succeeded;
         }
 
