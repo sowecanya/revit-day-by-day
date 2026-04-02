@@ -37,6 +37,7 @@ A **Day by Day** tab will appear on the Ribbon.
 | 15 | Create sheets from a list | [Day015_CreateSheets.cs](Commands/Day015_CreateSheets.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7443978316165988352-hyno?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 16 | Find unplaced views | [Day016_UnplacedViews.cs](Commands/Day016_UnplacedViews.cs) | [LinkedIn] (https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444409595617361921-x6gG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 17 | Duplicate a view | [Day017_DuplicateView.cs](Commands/Day017_DuplicateView.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444772809672740864-vOUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 18 | Color rooms by area | [Day018_ColorRoomsByArea.cs](Commands/Day018_ColorRoomsByArea.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7445471319745273856-20Jh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 
 ## Author
 

@@ -32,6 +32,7 @@ namespace RevitDayByDay
             AddButton(p2, path, "Day015", "Day 15\nCreate Sheets", "RevitDayByDay.Commands.Day015_CreateSheets");
             AddButton(p2, path, "Day016", "Day 16\nUnplaced Views", "RevitDayByDay.Commands.Day016_UnplacedViews");
             AddButton(p2, path, "Day017", "Day 17\nDuplicate View", "RevitDayByDay.Commands.Day017_DuplicateView");
+            AddButton(p2, path, "Day018", "Day 18\nColor Rooms", "RevitDayByDay.Commands.Day018_ColorRoomsByArea");
 
             return Result.Succeeded;
         }
