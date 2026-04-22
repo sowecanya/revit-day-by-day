@@ -33,7 +33,13 @@ namespace RevitDayByDay
             AddButton(p2, path, "Day016", "Day 16\nUnplaced Views", "RevitDayByDay.Commands.Day016_UnplacedViews");
             AddButton(p2, path, "Day017", "Day 17\nDuplicate View", "RevitDayByDay.Commands.Day017_DuplicateView");
             AddButton(p2, path, "Day018", "Day 18\nColor Rooms", "RevitDayByDay.Commands.Day018_ColorRoomsByArea");
+            AddButton(p2, path, "Day019", "Day 19\nTag Doors", "RevitDayByDay.Commands.Day019_TagAllDoors");
+            AddButton(p2, path, "Day020", "Day 20\nLegend Sheets", "RevitDayByDay.Commands.Day020_LegendToSheets");
 
+            var p3 = app.CreateRibbonPanel(tabName, "Parameters");
+            AddButton(p3, path, "Day021", "Day 21\nRead Param", "RevitDayByDay.Commands.Day021_ReadBuiltInParam");
+            AddButton(p3, path, "Day022", "Day 22\nWrite Shared", "RevitDayByDay.Commands.Day022_WriteSharedParam");
+            AddButton(p3, path, "Day023", "Day 23\nCreate Param", "RevitDayByDay.Commands.Day023_CreateProjectParam");
             return Result.Succeeded;
         }
 

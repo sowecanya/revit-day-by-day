@@ -38,7 +38,18 @@ A **Day by Day** tab will appear on the Ribbon.
 | 16 | Find unplaced views | [Day016_UnplacedViews.cs](Commands/Day016_UnplacedViews.cs) | [LinkedIn] (https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444409595617361921-x6gG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 17 | Duplicate a view | [Day017_DuplicateView.cs](Commands/Day017_DuplicateView.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444772809672740864-vOUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
 | 18 | Color rooms by area | [Day018_ColorRoomsByArea.cs](Commands/Day018_ColorRoomsByArea.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7445471319745273856-20Jh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-
+| 19 | Tag all doors | [Day019_TagAllDoors.cs](Commands/Day019_TagAllDoors.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7445500374255374336-qDWd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 20 | Copy legend to every sheet | [Day020_LegendToSheets.cs](Commands/Day020_LegendToSheets.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7446897428978634754-aIE8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
+| 21 | Read any built-in parameter | [Day021_ReadBuiltInParam.cs](Commands/Day021_ReadBuiltInParam.cs) | [LinkedIn]() |
+| 22 | Write to shared parameters | [Day022_WriteSharedParam.cs](Commands/Day022_WriteSharedParam.cs) | [LinkedIn]() |
+| 23 | Create a project parameter | [Day023_CreateProjectParam.cs](Commands/Day023_CreateProjectParam.cs) | [LinkedIn]() |
+| 24 | Copy parameter values | [Day024_CopyParamValues.cs](Commands/Day024_CopyParamValues.cs) | [LinkedIn]() |
+| 25 | Filter walls by thickness | [Day025_FilterByThickness.cs](Commands/Day025_FilterByThickness.cs) | [LinkedIn]() |
+| 26 | Validate required parameters | [Day026_ValidateParams.cs](Commands/Day026_ValidateParams.cs) | [LinkedIn]() |
+| 27 | Export parameters to JSON | [Day027_ParamsToJson.cs](Commands/Day027_ParamsToJson.cs) | [LinkedIn]() |
+| 28 | Type vs Instance parameters | [Day028_TypeVsInstance.cs](Commands/Day028_TypeVsInstance.cs) | [LinkedIn]() |
+| 29 | Global parameters | [Day029_GlobalParams.cs](Commands/Day029_GlobalParams.cs) | [LinkedIn]() |
+| 30 | Dynamic Model Update | [Day030_ParamChangeUpdater.cs](Commands/Day030_ParamChangeUpdater.cs) | [LinkedIn]() |
 ## Author
 
 Dinar Sharafutdinov. BIM developer, MEP.
