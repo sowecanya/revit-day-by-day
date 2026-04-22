@@ -40,6 +40,8 @@ namespace RevitDayByDay
             AddButton(p3, path, "Day021", "Day 21\nRead Param", "RevitDayByDay.Commands.Day021_ReadBuiltInParam");
             AddButton(p3, path, "Day022", "Day 22\nWrite Shared", "RevitDayByDay.Commands.Day022_WriteSharedParam");
             AddButton(p3, path, "Day023", "Day 23\nCreate Param", "RevitDayByDay.Commands.Day023_CreateProjectParam");
+            AddButton(p3, path, "Day024", "Day 24\nCopy Params", "RevitDayByDay.Commands.Day024_CopyParamValues");
+            AddButton(p3, path, "Day025", "Day 25\nFilter Thick", "RevitDayByDay.Commands.Day025_FilterByThickness");
             return Result.Succeeded;
         }
 
