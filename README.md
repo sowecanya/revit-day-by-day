@@ -1,54 +1,70 @@
-# Revit API — Day by Day
+# Revit Day By Day
 
-100 days. 100 commands. One plugin for Revit 2026.
+Archived Revit API learning experiment: 25 small C# commands for Revit 2026.
 
-Every day I post one Revit API technique on LinkedIn. All the code lives here. Clone, build, run.
+This repository was originally planned as a 100-day LinkedIn/code series. I stopped the format after 25 days because it was not the right long-term direction. The code is kept public as a compact learning archive, not as an actively maintained product.
 
-Revit 2026 only. .NET 8 only.
+## Status
 
-## Installation
+- Archived: no new days are planned.
+- Target: Revit 2026, .NET 8, Windows.
+- Scope: small isolated Revit API command examples.
+- Support: no active support, releases, installer, or compatibility promises.
 
-Clone the repo, open `RevitDayByDay.csproj` in Visual Studio 2022, hit Build. The DLL copies itself automatically. Drop `RevitDayByDay.addin` into `%AppData%\Autodesk\Revit\Addins\2026\` and start Revit.
+## What Is Here
 
-A **Day by Day** tab will appear on the Ribbon.
+The add-in registers a `Day by Day` ribbon tab and exposes one button per command. Each command lives in `Commands/DayXXX_*.cs`.
 
-## Project structure
+## Build
 
-`App.cs` registers the Ribbon tab and buttons. Each command is a separate file in `Commands`. To add a new day, create a file in Commands and add one line to App.cs.
+Prerequisites:
 
-## Days
+- Autodesk Revit 2026 installed at `C:\Program Files\Autodesk\Revit 2026`
+- Visual Studio 2022 or .NET SDK with Windows desktop workload
 
-| Day | Topic | Code | Post |
-|-----|-------|------|------|
-| 1 | Rename 500 views in 2 seconds | [Day001_RenameViews.cs](Commands/Day001_RenameViews.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7438982550162837504-GqFp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 2 | Count elements by category | [Day002_CountByCategory.cs](Commands/Day002_CountByCategory.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439301340310319105-FDtX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 3 | Export rooms to CSV | [Day003_ExportRoomsToCsv.cs](Commands/Day003_ExportRoomsToCsv.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7439652702181163008-tsNP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 4 | Find every warning in the model | [Day004_ListWarnings.cs](Commands/Day004_ListWarnings.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440044717079171073-XREb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 5 | Delete unplaced rooms | [Day005_DeleteUnplacedRooms.cs](Commands/Day005_DeleteUnplacedRooms.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440384679049859072-guMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 6 | Bulk-update parameter values | [Day006_BulkSetParameter.cs](Commands/Day006_BulkSetParameter.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7440780052113408001-xDVw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 7 | List all linked files | [Day007_ListLinkedFiles.cs](Commands/Day007_ListLinkedFiles.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441194415504678913-hkL5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 8 | Find elements without a workset | [Day008_NoWorksetElements.cs](Commands/Day008_NoWorksetElements.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441389842392907776-zxi-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 9 | Auto-number doors by room | [Day009_AutoNumberDoors.cs](Commands/Day009_AutoNumberDoors.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7441868374864838656-4_Hd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 10 | Find the tallest wall | [Day010_TallestWall.cs](Commands/Day010_TallestWall.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7442239952244871169-zDea?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 11 | Apply view template to all plans | [Day011_ApplyViewTemplate.cs](Commands/Day011_ApplyViewTemplate.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7442602745808740352-ciPa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 12 | Create a schedule from code | [Day012_CreateSchedule.cs](Commands/Day012_CreateSchedule.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7443239962420006912-VZY9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 13 | Section box around selection | [Day013_SectionBoxSelection.cs](Commands/Day013_SectionBoxSelection.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7443281637116784641-pP5A?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 14 | Export all sheets to PDF | [Day014_ExportSheetsPdf.cs](Commands/Day014_ExportSheetsPdf.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7443707975749398528-AQyU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 15 | Create sheets from a list | [Day015_CreateSheets.cs](Commands/Day015_CreateSheets.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7443978316165988352-hyno?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 16 | Find unplaced views | [Day016_UnplacedViews.cs](Commands/Day016_UnplacedViews.cs) | [LinkedIn] (https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444409595617361921-x6gG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 17 | Duplicate a view | [Day017_DuplicateView.cs](Commands/Day017_DuplicateView.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7444772809672740864-vOUS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 18 | Color rooms by area | [Day018_ColorRoomsByArea.cs](Commands/Day018_ColorRoomsByArea.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7445471319745273856-20Jh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 19 | Tag all doors | [Day019_TagAllDoors.cs](Commands/Day019_TagAllDoors.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7445500374255374336-qDWd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 20 | Copy legend to every sheet | [Day020_LegendToSheets.cs](Commands/Day020_LegendToSheets.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7446897428978634754-aIE8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 21 | Read any built-in parameter | [Day021_ReadBuiltInParam.cs](Commands/Day021_ReadBuiltInParam.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7447221681015934978-VwoE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 22 | Write to shared parameters | [Day022_WriteSharedParam.cs](Commands/Day022_WriteSharedParam.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7447395287851048960-V725?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 23 | Create a project parameter | [Day023_CreateProjectParam.cs](Commands/Day023_CreateProjectParam.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-ugcPost-7446917787526078465-TSCU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 24 | Copy parameter values | [Day024_CopyParamValues.cs](Commands/Day024_CopyParamValues.cs) | [LinkedIn](https://www.linkedin.com/posts/sowecanya_revitapi-bim-csharp-activity-7452702385220571138-UPHu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEOH9K4BmKdRXkgpxwcJ5io7vCI8SCCLEAw) |
-| 25 | Filter walls by thickness | [Day025_FilterByThickness.cs](Commands/Day025_FilterByThickness.cs) | [LinkedIn]() |
+Build:
 
-## Author
+```powershell
+dotnet build RevitDayByDay.csproj
+```
 
-Dinar Sharafutdinov. BIM developer, MEP.
+The project copies the compiled DLL to:
+
+```text
+%AppData%\Autodesk\Revit\Addins\2026\
+```
+
+To load the add-in, copy `RevitDayByDay.addin` to the same Revit add-ins folder and start Revit.
+
+## Commands
+
+| Day | Topic | Code |
+|---:|---|---|
+| 1 | Rename views | [Day001_RenameViews.cs](Commands/Day001_RenameViews.cs) |
+| 2 | Count elements by category | [Day002_CountByCategory.cs](Commands/Day002_CountByCategory.cs) |
+| 3 | Export rooms to CSV | [Day003_ExportRoomsToCsv.cs](Commands/Day003_ExportRoomsToCsv.cs) |
+| 4 | List model warnings | [Day004_ListWarnings.cs](Commands/Day004_ListWarnings.cs) |
+| 5 | Delete unplaced rooms | [Day005_DeleteUnplacedRooms.cs](Commands/Day005_DeleteUnplacedRooms.cs) |
+| 6 | Bulk-set parameter values | [Day006_BulkSetParameter.cs](Commands/Day006_BulkSetParameter.cs) |
+| 7 | List linked files | [Day007_ListLinkedFiles.cs](Commands/Day007_ListLinkedFiles.cs) |
+| 8 | Find elements without a workset | [Day008_NoWorksetElements.cs](Commands/Day008_NoWorksetElements.cs) |
+| 9 | Auto-number doors by room | [Day009_AutoNumberDoors.cs](Commands/Day009_AutoNumberDoors.cs) |
+| 10 | Find the tallest wall | [Day010_TallestWall.cs](Commands/Day010_TallestWall.cs) |
+| 11 | Apply view templates | [Day011_ApplyViewTemplate.cs](Commands/Day011_ApplyViewTemplate.cs) |
+| 12 | Create a schedule | [Day012_CreateSchedule.cs](Commands/Day012_CreateSchedule.cs) |
+| 13 | Create a section box around selection | [Day013_SectionBoxSelection.cs](Commands/Day013_SectionBoxSelection.cs) |
+| 14 | Export sheets to PDF | [Day014_ExportSheetsPdf.cs](Commands/Day014_ExportSheetsPdf.cs) |
+| 15 | Create sheets from a list | [Day015_CreateSheets.cs](Commands/Day015_CreateSheets.cs) |
+| 16 | Find unplaced views | [Day016_UnplacedViews.cs](Commands/Day016_UnplacedViews.cs) |
+| 17 | Duplicate a view | [Day017_DuplicateView.cs](Commands/Day017_DuplicateView.cs) |
+| 18 | Color rooms by area | [Day018_ColorRoomsByArea.cs](Commands/Day018_ColorRoomsByArea.cs) |
+| 19 | Tag doors | [Day019_TagAllDoors.cs](Commands/Day019_TagAllDoors.cs) |
+| 20 | Place a legend on sheets | [Day020_LegendToSheets.cs](Commands/Day020_LegendToSheets.cs) |
+| 21 | Read built-in parameters | [Day021_ReadBuiltInParam.cs](Commands/Day021_ReadBuiltInParam.cs) |
+| 22 | Write shared parameters | [Day022_WriteSharedParam.cs](Commands/Day022_WriteSharedParam.cs) |
+| 23 | Create a project parameter | [Day023_CreateProjectParam.cs](Commands/Day023_CreateProjectParam.cs) |
+| 24 | Copy parameter values | [Day024_CopyParamValues.cs](Commands/Day024_CopyParamValues.cs) |
+| 25 | Filter walls by thickness | [Day025_FilterByThickness.cs](Commands/Day025_FilterByThickness.cs) |
 
 ## License
 

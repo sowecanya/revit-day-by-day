@@ -6,6 +6,6 @@
     <AddInId>D1B2C3D4-E5F6-7890-ABCD-DA1BDA0D2026</AddInId>
     <FullClassName>RevitDayByDay.App</FullClassName>
     <VendorId>DSTools</VendorId>
-    <VendorDescription>DSTools — Dinar Sharafutdinov</VendorDescription>
+    <VendorDescription>DSTools - Dinar Sharafutdinov</VendorDescription>
   </AddIn>
 </RevitAddIns>
